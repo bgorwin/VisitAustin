@@ -22,10 +22,10 @@ body {
 
 h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif; 
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
 }
 
-h1 {  
+h1 {
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
@@ -90,7 +90,7 @@ a:active {
   height: 850px;
   background: linear-gradient(#ffa949, transparent 90%),
     linear-gradient(0deg, #fff, transparent),
-    #ffa949 url('../img/mountains.jpg') no-repeat center;
+    #ffa949 url('../img/downtownAustin.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -105,7 +105,7 @@ a:active {
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 
 .primary-content,
@@ -123,6 +123,18 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+}
+
+.third-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.foodTitle,
+.coffeeTitle {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .callout {
@@ -145,8 +157,9 @@ a:active {
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
-.secondary-content {
+.primary-content,
+.secondary-content,
+.third-content {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -173,16 +186,26 @@ a:active {
 
 /* Floated Columns ------------------ */
 
-.resorts,
-.tips {
+.trill,
+.ramen,
+.coffee1,
+.coffee2 {
   width: 46.5%;
 }
 
-.tips {
+.ramen {
   float: left;
 }
 
-.resorts {
+.coffee2 {
+  float: right;
+}
+
+.coffee1 {
+  float: left;
+}
+
+.trill {
   float: right;
 }
 
@@ -198,8 +221,9 @@ a:active {
 /* Media Queries -------------------- */
 
 @media (max-width: 1024px) {
-  .primary-content, 
-  .secondary-content {
+  .primary-content,
+  .secondary-content,
+  .third-content {
     width: 90%
   }
 
@@ -210,8 +234,9 @@ a:active {
 }
 
 @media (max-width: 768px) {
-  .primary-content, 
-  .secondary-content {
+  .primary-content,
+  .secondary-content,
+  .third-content {
     width: 100%;
     padding: 20px;
     border-top: none;
@@ -240,8 +265,10 @@ a:active {
     font-size: 1rem;
   }
 
-  .resorts, 
-  .tips {
+  .trill,
+  .ramen,
+  .coffee2,
+  .coffee1 {
     float: none;
     width: 100%;
   }
