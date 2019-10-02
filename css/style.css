@@ -116,7 +116,7 @@ a:active {
 
 .primary-content {
 	padding-top: 25px;
-  padding-bottom: 95px;
+  padding-bottom: 35px;
 }
 
 .secondary-content {
@@ -215,6 +215,17 @@ a:active {
   content: "";
   display: table;
   clear: both;
+}
+
+/* Fade In Section ----------------- */
+#top {
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+#austinTitle {
+  opacity: 0;
+  transition-duration: 3s;
 }
 
 
