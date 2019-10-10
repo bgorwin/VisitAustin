@@ -6,5 +6,5 @@ window.onload = function fadeInHeaderTop(){
 
 $("#photo1").scroll(function() {
   $("#photo1").slideDown("1000");
-  
+
 });

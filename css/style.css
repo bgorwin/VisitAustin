@@ -184,6 +184,18 @@ a:active {
   border-top: 2px solid #dfe2e6;
 }
 
+
+/* Coffee Page Styles --------------------- */
+/* .main-header {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(#ffa949, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #ffa949 url('../../img/jubilee1.jpg') no-repeat center;
+  background-size: cover;
+} */
+
+
 /* Layout Styles ------------------ */
 
 .primary-content,
