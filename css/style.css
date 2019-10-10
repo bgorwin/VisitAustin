@@ -64,6 +64,35 @@ li {
   margin-bottom: 10px;
 }
 
+/* Navbar         ------------------ */
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 169, 73);
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: black !important;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: white !important;
+}
+
+
+
+
+
 /* Pseudo-classes ------------------ */
 
 a:link {
