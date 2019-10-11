@@ -70,7 +70,7 @@ li {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 169, 73);
+  background-color: transparent;
 }
 
 .nav li {
@@ -79,14 +79,14 @@ li {
 
 .nav li a {
   display: block;
-  color: black !important;
+  color: white !important;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
 }
 
 .nav li a:hover {
-  color: white !important;
+  color: #ffa949 !important;
 }
 
 
@@ -121,6 +121,8 @@ a:active {
     linear-gradient(0deg, #fff, transparent),
     #ffa949 url('../img/downtownAustin.jpg') no-repeat center;
   background-size: cover;
+  margin-top: -62px;
+
 }
 
 .title {
@@ -139,7 +141,8 @@ a:active {
 
 .primary-content,
 .main-header,
-.main-footer {
+.main-footer,
+.main-header-coffee {
   text-align: center;
 }
 
@@ -186,14 +189,15 @@ a:active {
 
 
 /* Coffee Page Styles --------------------- */
-/* .main-header {
+.main-header-coffee {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(#ffa949, transparent 90%),
+  background: linear-gradient(#696464, transparent 90%),
     linear-gradient(0deg, #fff, transparent),
-    #ffa949 url('../../img/jubilee1.jpg') no-repeat center;
+    #ffa949 url('../img/jubilee1.jpg') no-repeat center;
   background-size: cover;
-} */
+  margin-top: -62px;
+}
 
 
 /* Layout Styles ------------------ */
