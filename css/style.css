@@ -153,7 +153,8 @@ a:hover {
 .primary-content,
 .main-header,
 .main-footer,
-.main-header-coffee {
+.main-header-coffee,
+.main-header-food {
   text-align: center;
 }
 
@@ -207,6 +208,18 @@ a:hover {
   background: linear-gradient(#696464, transparent 90%),
     linear-gradient(0deg, #fff, transparent),
     #ffa949 url('../img/jubilee1.jpg') no-repeat center;
+  background-size: cover;
+  margin-top: -62px;
+}
+
+
+/* Food Page Styles --------------------- */
+.main-header-food {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(#f1d6ab, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #ffa949 url('../img/foodBackground.jpg') no-repeat center;
   background-size: cover;
   margin-top: -62px;
 }
@@ -310,7 +323,9 @@ a:hover {
     border-top: none;
   }
 
-  .main-header {
+  .main-header,
+  .main-header-coffee,
+  .main-header-food {
     max-height: 380px;
     padding: 50px 25px 0;
   }
